@@ -14,7 +14,6 @@ h1, h2, h3, h4{
 
 p{
   color: #5B6987;
-  margin-bottom: 60px;
 }
 
 body{
@@ -192,13 +191,13 @@ div.form *{
 
 #section_1 .container_flex{
   display: flex;
-  justify-content: space-around;
   align-items: baseline;
+  flex-wrap: wrap;
 }
 
 
 #section_1 .container_flex img {
-  width: 50%;
+  max-width: 60%;
   height: auto;
 }
 
@@ -270,14 +269,13 @@ div.form *{
 /* Section 7 */
 #section_7{
   background-image: url("bg-home-1-d54581d7.jpg");
-  padding: 5% 0;
 }
 
 #section_7 h2{
   color: white;
 }
 
-#section_7 a{
+#section_7 .container a{
   background-color: white;
   color: #0147FE;
   font-weight: bold;
@@ -288,6 +286,10 @@ div.form *{
 #section_7 a:hover{
   background-color: lightgrey;
   text-decoration: none;
+}
+
+#section_7 .container div{
+  margin-bottom: 30px;
 }
 
 
