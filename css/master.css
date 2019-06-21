@@ -1,0 +1,375 @@
+/* Regole generali */
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  /* font-size: 26px; */
+}
+
+h1, h2, h3, h4{
+  margin-bottom: 5%;
+  font-weight: bold;
+  color: #031B4E;
+}
+
+p{
+  color: #5B6987;
+  margin-bottom: 60px;
+}
+
+body{
+  line-height: 1.5;
+}
+
+body img{
+
+}
+
+.container{
+  min-width: 80%;
+  max-width: 90%;
+  padding: 0;
+  margin: 0 auto;
+}
+.container-small{
+  max-width: 900px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+
+
+#section_0,
+#section_2,
+#section_3,
+#section_4,
+#section_5,
+#section_6,
+#section_7{
+  padding: 5% 0;
+}
+
+
+
+
+li{
+  list-style: none;
+}
+
+.note p,
+.note a {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+/* Svrascrittura regole Bootstrap */
+
+header .nav-sup {
+  margin-right: -40px;
+}
+
+/* Regole Specifiche per Header */
+header{
+  font-size: 16px;
+}
+
+header .container-nav{
+  max-width: 95%;
+  margin: 0 auto;
+
+}
+
+header .nav_1 a{
+  font-size: 0.6em;
+  font-weight: bold;
+}
+
+header .nav_1 ul li{
+  float: left;
+  padding: 0 5%;
+}
+
+header .nav_1 ul{
+  min-width: 80%;
+}
+
+header #hamburgher{
+  background: none;
+  border: none;
+  padding: 10px;
+}
+
+.header_2 a{
+  font-size: 14px;
+  font-weight: bold;
+  color: #004AFF;
+}
+
+.header_2 button{
+  font-size: 14px;
+  font-weight: bold;
+  color: #004AFF;
+  background: none;
+  border: 1px solid #004AFF;
+}
+
+.header_2 img{
+  
+}
+/* Section 0 */
+#section_0{
+  /* font-size: 62px; */
+  background-image: url("bg-home-1-d54581d7.jpg");
+  padding: 10%;
+  font-size: 1.2em;
+
+}
+
+
+
+#section_0 .col-header h1,
+#section_0 .col-header p{
+  color: white;
+}
+
+
+
+#section_0 form{
+  margin: 0 auto;
+  background-color: white;
+}
+
+#section_0 form .note p{
+  color: #5B6987;
+}
+
+
+
+.form{
+  min-width: 100%;
+  background-color: white;
+  color: black;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
+div.form *{
+  margin-bottom: 5px;
+}
+
+
+
+#section_0 form a{
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 10px;;
+  border-radius: 10px;
+}
+
+#section_0 .form .title-box{
+  margin-bottom: 40px;
+}
+
+.google-btn{
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.green-btn{
+  width: 100%;
+  background: #0CB863;
+}
+
+.home h1{
+  font-size: 56px;
+}
+
+
+/* Section 1 */
+#section_1{
+  background: #F3F5F9;
+}
+
+/* #section_1 .row{
+  padding-top: 5px;
+  padding-bottom: 5px;
+} */
+
+#section_1 .logo-list li {
+  float: left;
+
+
+}
+
+#section_1 .logo-list img {
+  max-width: 60%;
+  height: auto;
+}
+
+
+/* Section 2 */
+
+#section_2 li{
+  padding: 2%;
+}
+
+
+
+/* Section_3 */
+#section_3 img,
+#section_6 img{
+ max-width: 80%;
+ height: auto;
+ margin: 2% 0;
+}
+
+
+/* Section 5 */
+#section_5 table{
+  color: grey;
+  width: 100%;
+  /* margin-bottom: 60px; */
+
+}
+
+#section_5 h2{
+  color: white;
+  line-height: 2;
+}
+
+#section_5{
+
+  background-color: #031B4E;
+  color: white;
+  padding: 5% 0;
+  }
+
+#section_5 table span{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  }
+
+#section_5 table tr{
+  border-bottom: 1px solid grey;
+  font-weight: lighter;
+}
+
+#section_5 table tr a{
+  font-weight: normal;
+}
+/* Section 6 */
+#section_6{
+  color: white;
+  /* margin: -25px 0; */
+}
+
+#section_6,
+#section_3{
+  background-color: #F3F5F9;
+}
+
+
+
+/* Section 7 */
+#section_7{
+  background-image: url("bg-home-1-d54581d7.jpg");
+  padding: 5% 0;
+}
+
+#section_7 h2{
+  color: white;
+}
+
+#section_7 a{
+  background-color: white;
+  color: #0147FE;
+  font-weight: bold;
+  padding: 1% 2%;
+  border-radius: 5px;
+}
+
+#section_7 a:hover{
+  background-color: lightgrey;
+  text-decoration: none;
+}
+
+
+/* Footer */
+footer{
+  background-color: #010E28;
+  color: gray;
+  padding-top: 5%;
+  font-weight: lighter;
+}
+
+
+
+footer .social-footer li{
+  float: left;
+  padding-right: 2%;
+}
+
+footer .social-footer{
+  margin-top: 20px;
+}
+
+footer a{
+   color: gray;
+ }
+
+ footer a:hover{
+    color: white;
+    text-decoration: none;
+  }
+
+ footer .collegamenti ul span{
+   color: white;
+   font-weight: bold;
+   margin-bottom: 2%;
+ }
+
+ /* Classi ausiliarie */
+ .mr-r{
+   margin-right: 5%;
+ }
+
+ .title-box{
+   margin-bottom: 20px;
+ }
+
+
+
+/* MEDIA QUERY */
+
+/* Testo Responsive */
+@media only screen and (max-width: 969px) {
+  body {
+    font-size: 18px;
+  }
+
+  header {
+    background: none;
+  }
+
+  [class*="col-"], span{
+    margin-bottom: 4%;
+  }
+
+  #section_0 h1{
+   font-size: 2em;
+  }
+
+
+
+  footer > div{
+    margin-bottom: 50px;
+  }
+
+  footer .social-footer{
+    margin-bottom: 20px;
+  }
+
+}
+
+/* Padding interno sezioni Responsive */
