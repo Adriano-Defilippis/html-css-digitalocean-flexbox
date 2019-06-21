@@ -39,7 +39,7 @@ body img{
 
 
 
-#section_0,
+/* #section_0,
 #section_2,
 #section_3,
 #section_4,
@@ -47,7 +47,7 @@ body img{
 #section_6,
 #section_7{
   padding: 5% 0;
-}
+} */
 
 
 
@@ -114,7 +114,7 @@ header #hamburgher{
 }
 
 .header_2 img{
-  
+
 }
 /* Section 0 */
 #section_0{
@@ -190,19 +190,15 @@ div.form *{
   background: #F3F5F9;
 }
 
-/* #section_1 .row{
-  padding-top: 5px;
-  padding-bottom: 5px;
-} */
-
-#section_1 .logo-list li {
-  float: left;
-
-
+#section_1 .container_flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
 }
 
-#section_1 .logo-list img {
-  max-width: 60%;
+
+#section_1 .container_flex img {
+  width: 50%;
   height: auto;
 }
 
